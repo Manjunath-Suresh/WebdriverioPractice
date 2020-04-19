@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="register_to_the_website" timestamp="2020-04-20T03:46:18" time="19.974" tests="3" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="register to the website"/>
+      <property name="capabilities" value="chrome.81_0_4044_113.win32"/>
+      <property name="file" value=".\test\registeration.js"/>
+    </properties>
+    <testcase classname="chrome.81_0_4044_113.win32.register_to_the_website" name="launch_the_url" time="11.206"/>
+    <testcase classname="chrome.81_0_4044_113.win32.register_to_the_website" name="signin_for_the_registeration" time="2.906"/>
+    <testcase classname="chrome.81_0_4044_113.win32.register_to_the_website" name="create_account" time="5.814"/>
+  </testsuite>
+</testsuites>

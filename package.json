@@ -1,0 +1,32 @@
+{
+  "name": "webdriver-io-assignment",
+  "version": "1.0.0",
+  "description": "Webdriverio Assignment",
+  "main": "index.js",
+  "scripts": {
+    "open-allure": "./node_modules/.bin/allure generate ./Reports/allure-results --clean && allure open",
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "author": "Manju",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^6.0.12",
+    "@wdio/junit-reporter": "^6.0.12",
+    "@wdio/local-runner": "^6.0.13",
+    "@wdio/mocha-framework": "^6.0.13",
+    "@wdio/sauce-service": "^6.0.13",
+    "@wdio/selenium-standalone-service": "^6.0.12",
+    "@wdio/spec-reporter": "^6.0.12",
+    "@wdio/sync": "^6.0.12",
+    "chai": "^4.2.0",
+    "chromedriver": "^80.0.1",
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-mocha": "^6.3.0",
+    "wdio-chromedriver-service": "^5.0.2"
+  },
+  "dependencies": {
+    "@wdio/cli": "^6.0.13"
+  }
+}

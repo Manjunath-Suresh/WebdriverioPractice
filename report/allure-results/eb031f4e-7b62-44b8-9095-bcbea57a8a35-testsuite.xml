@@ -1,0 +1,60 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1587318166020' stop='1587318189377'>
+    <name>register to the website</name>
+    <title>register to the website</title>
+    <test-cases>
+        <test-case start='1587318166021' status='passed' stop='1587318176204'>
+            <name>launch the url</name>
+            <title>launch the url</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.18362'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1587318176205' status='passed' stop='1587318178709'>
+            <name>signin for the registeration</name>
+            <title>signin for the registeration</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.18362'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1587318178710' status='broken' stop='1587318189370'>
+            <name>create account</name>
+            <title>create account</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.18362'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "#id_gender1" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "#id_gender1" because element wasn't found
+                    at implicitWait (C:\Users\Manjunath\Documents\webdriver-io-assignment\node_modules\webdriverio\build\utils\implicitWait.js:22:13)
+                    at Element.runCommandWithHooks (C:\Users\Manjunath\Documents\webdriver-io-assignment\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Element.wrapCommandFn (C:\Users\Manjunath\Documents\webdriver-io-assignment\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at Element.elementErrorHandlerCallback (C:\Users\Manjunath\Documents\webdriver-io-assignment\node_modules\webdriverio\build\middlewares.js:40:8)
+                    at Context.&lt;anonymous> (C:\Users\Manjunath\Documents\webdriver-io-assignment\test\registeration.js:23:33)
+                    at Context.executeSync (C:\Users\Manjunath\Documents\webdriver-io-assignment\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\Manjunath\Documents\webdriver-io-assignment\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
